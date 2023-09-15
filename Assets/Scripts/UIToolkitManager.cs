@@ -5,7 +5,7 @@ using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class MenuUIToolkit : MonoBehaviour
+public class UIToolkitManager : MonoBehaviour
 {
     public UIDocument _document;
     public StyleSheet _menuStyle;
