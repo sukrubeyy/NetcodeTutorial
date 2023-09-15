@@ -1,0 +1,27 @@
+:root{
+}
+
+.ButtonWrapper{
+    width: 20%;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.border-box{
+    border-width: 0px;
+    border-radius: 50px;
+}
+.CustomButton{
+    width: 70px;
+    height: 70px;
+    background-color: purple;
+    color: white;
+    transition:0.25s all;
+    -unity-font-style: bold;
+}
+
+.CustomButton:hover{
+    scale:1.2;
+    opacity: 0.5;
+    background-color: magenta;
+}
